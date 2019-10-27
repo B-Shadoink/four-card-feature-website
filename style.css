@@ -1,0 +1,145 @@
+body{
+    background-color: whitesmoke;
+    margin: 7%;
+    font-family: 'poppins', sans-serif;
+}
+
+.mainHeader{
+    font-weight: 100;
+    text-align: center;
+}
+
+.secondHeader{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color: gray;
+}
+
+.headerDescription{
+    text-align: center;
+}
+
+.card1{
+    background-color: white;
+    border-top: hsl(180, 62%, 55%) solid;
+    padding: 10px 50px 0% 50px;
+    width: 250px;
+    height: 260px;
+    margin-top: 250px;
+    float: left;
+    box-shadow: 0px 6px hsla(229, 6%, 66%, 0.35);
+    border-radius: 5px;
+    
+}
+
+.card1 img{
+    float: right;
+    margin-top: 10px;
+}
+
+.card2{
+    background-color: white;
+    border-top: hsl(0, 78%, 62%) solid;
+    padding: 10px 50px 0% 50px;
+    width: 250px;
+    height: 260px;
+    margin: 15px;
+    box-shadow: 0px 6px hsla(229, 6%, 66%, 0.35);
+    border-radius: 5px;
+    margin-top: 22%;
+    margin-bottom: 20%
+}
+
+.card2 img{
+    float: right;
+    margin-top: 10px;
+}
+
+.card3{
+    background-color: white;
+    border-top: hsl(34, 97%, 64%) solid;
+    padding: 10px 50px 0% 50px;
+    width: 250px;
+    height: 260px;
+    margin: 15px;
+    margin-top: 30px;
+    box-shadow: 0px 6px hsla(229, 6%, 66%, 0.35);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card3 img{
+    float: right;
+    margin-top: 10px;
+}
+
+.card2-3{
+    float: left;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.card4{
+    background-color: white;
+    border-top: hsl(212, 86%, 64%) solid;
+    padding: 10px 50px 0% 50px;
+    width: 250px;
+    height: 260px;
+    float: left;
+    margin-top: 250px;
+    box-shadow: 0px 6px hsla(229, 6%, 66%, 0.35);
+    border-radius: 5px;
+}
+
+.card4 img{
+    float: right;
+    margin-top: 10px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:1156px){
+    .card1{
+    margin: 10px;
+    float: left;
+    width: 65%;
+}
+
+.card2{
+    margin: 10px;
+    width: 65%;
+}
+
+.card3{
+    margin: 10px;
+    width: 65%;
+}
+
+.card2-3{
+    float: none;
+    margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+.card4{
+    float: left;
+    margin: 10px;
+    width: 65%;
+}
+
+.cards{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+}
